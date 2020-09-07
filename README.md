@@ -21,7 +21,12 @@ characters.set("12345", {
 
 // get character
 // get(<id>)
-const character = characters.get("12345");
+const character = characters.get("12345");" // set, fetch, remove
+
+// fetch character
+// fetch()
+character.fetch(); // { name: "yasaricli" }
+
 
 // update character
 // set(<key>, <value>)
