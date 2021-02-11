@@ -30,6 +30,36 @@ test('Fetch', () => {
     })
 });
 
+test('Insert', () => {
+
+    users.insert("1234567", {
+        firstName: 'Ayşe',
+        lastName: 'KIRGEL',
+        age: 31
+    });
+
+
+    expect(users.fetch()).toEqual({
+        "12345": {
+            firstName: 'Yaşar',
+            lastName: 'İÇLİ',
+            age: 20
+        },
+
+        "123456": {
+            firstName: 'Selim',
+            lastName: 'KUMRU',
+            age: 20
+        },
+
+        "1234567": {
+            firstName: 'Ayşe',
+            lastName: 'KIRGEL',
+            age: 31
+        }
+    })
+});
+
 test('Get', () => {
     const user = users.get("12345");
     const user2 = users.get("123456");
