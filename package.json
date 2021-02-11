@@ -2,16 +2,11 @@
   "name": "dictlist",
   "version": "0.1.1",
   "description": "Dictlist is the object of a list.",
-  "main": "./src/app.js",
+  "main": "index.js",
   "scripts": {
-    "make": "babel index.js --out-file ./src/app.js"
+    "test": "node index.js"
   },
   "dependencies": {
     "underscore": "^1.11.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5"
   }
 }
