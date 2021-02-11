@@ -3,7 +3,7 @@ const _ = require("underscore");
 // base imports
 const Item = require("./item");
 
-class DictList {
+class Dict {
   constructor() {
     this.items = {};
   }
@@ -31,4 +31,4 @@ class DictList {
   }
 }
 
-module.exports = DictList;
+module.exports = Dict;
