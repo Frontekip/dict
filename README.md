@@ -1,17 +1,17 @@
-# dictlist
-Dictlist is the object of a list.
+# dict
+Dict is the object of a list.
 
 # Install
 
-    yarn add dictlist
+    yarn add @frontekip/dict
     
-# Create DictList
+# Create Dict
 
 ```JS
-import DictList from 'dictlist';
+import Dict from '@frontkip/dict';
 
 // object list.
-const characters = new DictList();
+const characters = new Dict();
 
 // add character
 // set(<id>, <object>)
