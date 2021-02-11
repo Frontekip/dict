@@ -4,8 +4,12 @@ const _ = require("underscore");
 const Item = require("./item");
 
 class Dict {
-  constructor() {
+  constructor(obj = {}) {
     this.items = {};
+
+    _.each(obj, (val, key) => {
+      this.insert(key, val);
+    });
   }
 
   insert(key, value) {
