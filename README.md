@@ -5,7 +5,7 @@ Dict is the object of a list.
 
     yarn add @frontekip/dict
     
-# Create Dict
+## Example
 
 ```JS
 import Dict from '@frontkip/dict';
@@ -35,6 +35,8 @@ character.set("name", "Onur");
 // remove character
 // remove()
 character.remove();
-
-
 ```
+
+## Run Test
+
+    npm run test
