@@ -1,7 +1,7 @@
 {
-  "name": "dictlist",
+  "name": "@frontekip/dict",
   "version": "0.2.0",
-  "description": "Dictlist is the object of a list.",
+  "description": "Dict is the object of a list.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
