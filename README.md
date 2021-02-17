@@ -15,7 +15,7 @@ const characters = new Dict();
 
 // add character
 // set(<id>, <object>)
-characters.set("12345", {
+characters.update("12345", {
   name: "yasaricli"
 });
 
@@ -30,7 +30,7 @@ character.fetch(); // { name: "yasaricli" }
 
 // update character
 // set(<key>, <value>)
-character.set("name", "Onur");
+character.update("name", "Onur");
 
 // remove character
 // remove()
